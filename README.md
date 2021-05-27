@@ -1,4 +1,21 @@
-# go-jsonnet
+# go-jsonnet - patched
+
+## What is this
+This is a patched version of go-jsonnet, in orther to change the "format tag" format from `%(<name>)s` to `�(<name>)s`.
+
+- Yes the actual '�' unicode symbol. 
+
+## Why
+I use jsonnet for templating my dotfiles, and having to escape all `%` occurrences in them is just not viable.
+
+
+## How to build
+```sh
+./build_patched_jsonnet.sh
+```
+
+
+# Original README
 
 [![GoDoc Widget]][GoDoc] [![Travis Widget]][Travis] [![Coverage Status Widget]][Coverage Status]
 
